@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Sansita:wght@400;700&display=swap');
+
 * {
 	box-sizing: border-box;
 }
@@ -6,9 +7,12 @@ body {
 	font-family: 'Sansita', sans-serif;
 	padding: 0;
 	margin: 0;
+	color: #a31621;
+	background-color: #931019;
 }
 p {
 	font-family: 'Noto Sans', sans-serif;
+	color: #2e2532;
 }
 .flex-container-column {
     display: flex;
@@ -18,6 +22,39 @@ p {
 .flex-container-row {
     display: flex;
     justify-content: center;
+}
+body > header {
+	display: inline;
+}
+.jumbotron {
+	font-size: 20px;
+	text-align: center;
+	background-color: #fadbde;
+}
+nav {
+	background-color: #fadbde;
+	padding: 5px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	align-self: flex-start;
+}
+nav li {
+	list-style-type: none;
+	margin-right: 20px;
+}
+nav a {
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #a31621;
+	padding: 10px;
+	border-radius: 10px;
+}
+nav a:hover {
+	font-weight: bold;
+	color: #f7f7f2;
+	background: -webkit-linear-gradient(top, #a31621, #e43a48);
 }
 aside {
 	flex-basis: 30%;
@@ -49,10 +86,11 @@ footer {
 	text-align: center;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 8px 0 rgba(46, 37, 50, 0.3);
     border-radius: 5px;
     padding: 30px;
     margin: 20px 20px;
+    background-color: #f7f7f2;
 }
 .content-list {
 	margin: 0 8px;
