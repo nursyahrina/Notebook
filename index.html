@@ -2,13 +2,16 @@
 
 <head>
     <title>Nursyahrina's Notebook</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
 <header>
-    <div class="jumbotron flex-container-column">
+    <div class="jumbotron flex-container-row">
         <img src="assets/images/notebook_logo.png" class="brand-image">
-        <h1>Welcome to My Notebook</h1>
-        <p>Sebuah halaman berisi kumpulan catatan materi dan informasi seputar IT.</p>
+        <div class="flex-container-column">
+            <h1>Welcome to My Notebook</h1>
+            <p>Sebuah halaman berisi kumpulan catatan materi dan informasi seputar IT.</p>
+        </div>
     </div>
     <nav>
         <ul class="flex-container-row">
@@ -25,7 +28,7 @@
     <aside>
         <article class="profile card">
             <header>
-                <img>
+                <img src="assets/images/saya.jpg" class="profile-image">
                 <h2>Nursyahrina</h2>
                 <p>Informatics Engineering Student</p> 
             </header>
@@ -39,49 +42,35 @@
             </section>
             <section>
                 <div>
-                    <p>Hi! I'm currently a student at Institut Teknologi Padang, majoring in Informatics Engineering. Interested in topics around Informatics escpecially data and programming. Like to learn new things and like to learn (self-taught) foreign languages. Independent in working and able to paticipate well in teamwork. The only child of the family, with businessman dad and housewife mom. Fan of soothing/melancholy musics, hero movies, TV series, and sweet & spicy foods.</p>
+                    <p class="about-me">Hi! I'm currently a student at Institut Teknologi Padang, majoring in Informatics Engineering. Interested in topics around Informatics escpecially data and programming. Like to learn new things and like to learn (self-taught) foreign languages. Independent in working and able to paticipate well in teamwork. The only child of the family, with businessman dad and housewife mom. Fan of soothing/ melancholy musics, hero movies, TV series, and sweet & spicy foods.</p>
                 </div>
-                <div><h6>December 17th 1995 (25 years)</h6></div>
-                <div><h6>Padang, West Sumatera, Indonesia</h6></div>
-                <div><h6>nursyahrina17@gmail.com</h6></div>
+                <div><h4>December 17th 1995 (25 years)</h4></div>
+                <div><h4>Padang, West Sumatera, Indonesia</h4></div>
+                <div><h4>nursyahrina17@gmail.com</h4></div>
             </section>
         </article>
     </aside>
     <div id="content" class="flex-container-column">
         <article id="home" class="card">
-            <h2>Content</h2>
+            <h2>Latest Contents</h2>
             <section>
-                <h3>Apa saja yang ada didalam notebook ini?</h3>
-                <ul id="contentList" class="flex-container-row">
-                    <li><h6>Data</h6>
-                        <ul>
-                            <li>Data1</li>
-                            <li>Data2</li>
-                            <li>Data3</li>
-                        </ul>
-                    </li>
-                    <li><h6>Programming</h6>
-                        <ul>
-                            <li>Programming1</li>
-                            <li>Programming2</li>
-                            <li>Programming3</li>
-                        </ul>
-                    </li>
-                    <li><h6>Computer Networks</h6>
-                        <ul>
-                            <li>Computer Networks1</li>
-                            <li>Computer Networks2</li>
-                            <li>Computer Networks3</li>
-                        </ul>
-                    </li>
-                    <li><h6>Artificial Intelligences</h6>
-                        <ul>
-                            <li>Artificial Intelligences1</li>
-                            <li>Artificial Intelligences2</li>
-                            <li>Artificial Intelligences3</li>
-                        </ul>
-                    </li>
-                </ul>
+                <div id="contentList" class="flex-container-row">
+                    <div class="content-list">
+                        <h3>Data</h3>
+                        <h4>Data1</h4>
+                    </div>
+                    <div class="content-list">
+                        <h3>Programming</h3>
+                        <h4>Programming1</h4>
+                    </div>
+                    <div class="content-list">
+                        <h3>Computer Networks</h3>
+                        <h4>Computer Networks</h4>
+                    </div><div class="content-list">
+                        <h3>Artificial Intelligences</h3>
+                        <h4>Artificial Intelligences1</h4>
+                    </div>
+                </div>
             </section>
         </article>
         <article id="data" class="card">

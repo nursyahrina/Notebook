@@ -13,19 +13,23 @@ p {
 .flex-container-column {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     max-width: 800px;
 }
 .flex-container-row {
     display: flex;
-    border: 1px solid red;
     justify-content: center;
 }
 aside {
-	flex-basis: 25%;
+	flex-basis: 30%;
+}
+aside header {
+	text-align: center;
+}
+.about-me {
+	font-size: 0.8em;
 }
 #content {
-	flex-basis: 50%;
+	flex-basis: 60%;
 }
 .brand-image {
 	max-height: 200px;
@@ -43,4 +47,13 @@ aside {
 }
 footer {
 	text-align: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px 20px;
+}
+.content-list {
+	margin: 0 8px;
 }
