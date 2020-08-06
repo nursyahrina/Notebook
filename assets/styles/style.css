@@ -92,11 +92,11 @@ footer {
 	margin-top: 20px;
 }
 .card {
-    box-shadow: 0 8px 8px 0 rgba(46, 37, 50, 0.3);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     padding: 30px;
     margin: 20px 20px;
-    background-color: #f7f7f2;
+    background-color: #fffff3;
 }
 .content-list {
 	margin: 0 8px;
