@@ -28,8 +28,12 @@ body > header {
 }
 .jumbotron {
 	font-size: 20px;
-	text-align: center;
 	background-color: #fadbde;
+}
+h1 {
+	font-size: 2.4em;
+	margin-top: 50px;
+	margin-bottom: 0;
 }
 nav {
 	background-color: #fadbde;
@@ -60,7 +64,7 @@ main {
 	margin-top: 20px;
 }
 aside {
-	flex-basis: 30%;
+	flex-basis: 25%;
 }
 aside header {
 	text-align: center;
@@ -69,11 +73,12 @@ aside header {
 	font-size: 0.8em;
 }
 #content {
-	flex-basis: 60%;
+	flex-basis: 50%;
 }
 .brand-image {
-	max-height: 200px;
+	max-height: 160px;
 	object-position: center;
+	margin: 20px;
 }
 .illustration-image {
 	width: 100%;
@@ -82,8 +87,27 @@ aside header {
 	object-position: center;
 }
 .profile-image {
-	max-width: 180px;
+	max-width: 140px;
 	border-radius: 50%;
+}
+.icon {
+	max-height: 36px;
+	margin: 8px;
+}
+.icon-small {
+	max-height: 24px;
+	margin-right: 8px;
+}
+.info {
+	justify-content: flex-start;
+}
+.info p, img {
+	margin-top: 8px;
+	text-align: left;
+	max-width: 220px;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #a31621;
 }
 footer {
 	text-align: center;
