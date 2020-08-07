@@ -101,17 +101,20 @@ aside header {
 	border-radius: 50%;
 }
 .icon {
-	max-height: 36px;
+	height: 36px;
 	margin: 8px;
 }
 .icon-small {
-	max-height: 24px;
-	margin-right: 8px;
+	height: 24px;
+	margin: 8px;
+}
+.icon-toggle {
+	height: 24px;
 }
 .info {
 	justify-content: flex-start;
 }
-.info p, .info img {
+.info p, .info img, {
 	margin-top: 8px;
 	text-align: left;
 	max-width: 220px;
@@ -136,14 +139,24 @@ footer {
 	flex-wrap: wrap;
 	width: 600px;
 }
-.note-title {
-	padding: 10px;
+.note {
+	margin-top: 10px;
+	padding: 20px;
+	height: 40px;
 	border-bottom: 2px solid #fadbde;
-	margin: 8px;
+	align-items: center;
 }
-.note-title:hover {
+.note:hover {
 	background-color: #fadbde;
 	cursor: pointer;
+	border-radius: 10px;
+}
+.note-title + img {
+	margin: 20px;
+}
+.note-title {
+	text-align: left;
+	width: 85%;
 }
 .note-content {
 	display: none;
