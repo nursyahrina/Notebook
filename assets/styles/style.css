@@ -10,9 +10,10 @@ body {
 	color: #a31621;
 	background-color: #931019;
 }
-p {
+p, main li {
 	font-family: 'Noto Sans', sans-serif;
 	color: #2e2532;
+	margin: 8px 8px;
 }
 .flex-container-column {
     display: flex;
@@ -35,6 +36,15 @@ h1 {
 	margin-top: 50px;
 	margin-bottom: 0;
 }
+h3 {
+	font-size: 1.4em;
+}
+h4 {
+	font-size: 1.2em;
+}
+dfn {
+	font-weight: bold;
+}
 nav {
 	background-color: #fadbde;
 	padding: 5px;
@@ -48,7 +58,7 @@ nav li {
 	margin-right: 20px;
 }
 nav a {
-	font-size: 18px;
+	font-size: 1.2em;
 	font-weight: 400;
 	text-decoration: none;
 	color: #a31621;
@@ -73,7 +83,7 @@ aside header {
 	font-size: 0.8em;
 }
 #content {
-	flex-basis: 50%;
+	flex-basis: 55%;
 }
 .brand-image {
 	max-height: 160px;
@@ -101,7 +111,7 @@ aside header {
 .info {
 	justify-content: flex-start;
 }
-.info p, img {
+.info p, .info img {
 	margin-top: 8px;
 	text-align: left;
 	max-width: 220px;
@@ -117,11 +127,35 @@ footer {
 }
 .card {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 30px;
     margin: 20px 20px;
     background-color: #fffff3;
 }
+#contentList {
+	flex-wrap: wrap;
+	width: 600px;
+}
+.note-title {
+	padding: 10px;
+	border-bottom: 2px solid #fadbde;
+	margin: 8px;
+}
+.note-title:hover {
+	background-color: #fadbde;
+	cursor: pointer;
+}
+.note-content {
+	display: none;
+}
 .content-list {
-	margin: 0 8px;
+	margin: 8px 8px;
+	padding: 20px 20px 20px 20px;
+	border-radius: 10px;
+	background-color: #fadbde;
+	width: 280px;
+}
+.content-list h4 {
+	padding: 0;
+	margin: 0;
 }

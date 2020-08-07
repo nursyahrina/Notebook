@@ -17,10 +17,10 @@
     </div>
     <nav>
         <ul class="flex-container-row">
-           <li><a href="index.html">Home</a></li>
+           <li><a href="#">Home</a></li>
            <li><a href="#data">Data</a></li>
            <li><a href="#programming">Programming</a></li>
-           <li><a href="#network">Computer Networks</a></li>
+           <li><a href="#networks">Computer Networks</a></li>
            <li><a href="#ai">Artificial Intelligences</a></li>
            <li><a href="#references">References</a></li>
         </ul>
@@ -28,24 +28,25 @@
 </header>
 <main class="flex-container-row">
     <div id="content" class="flex-container-column">
-        <article id="home" class="card">
+        <article id="latestContent" class="card">
             <h2>Latest Contents</h2>
             <section>
                 <div id="contentList" class="flex-container-row">
                     <div class="content-list">
-                        <h3>Data</h3>
-                        <h4>Data1</h4>
+                        <h4>Data</h4>
+                        <p>DBMS: Definisi dan Manfaatnya</p>
                     </div>
                     <div class="content-list">
-                        <h3>Programming</h3>
-                        <h4>Programming1</h4>
+                        <h4>Programming</h4>
+                        <p>Berbagai Paradigma Pemrograman</p>
                     </div>
                     <div class="content-list">
-                        <h3>Computer Networks</h3>
                         <h4>Computer Networks</h4>
-                    </div><div class="content-list">
-                        <h3>Artificial Intelligences</h3>
-                        <h4>Artificial Intelligences1</h4>
+                        <p>7 Layer pada Arsitektur OSI</p>
+                    </div>
+                    <div class="content-list">
+                        <h4>Artificial Intelligences</h4>
+                        <p>Apa itu Artificial Intelligences (AI) ?</p>
                     </div>
                 </div>
             </section>
@@ -54,43 +55,140 @@
             <img src="assets/images/undraw_data_xmfy.png" class="illustration-image">
             <h2>Notes about Data</h2>
             <section>
-                <h4>Notes about Data 1</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4 class="note-title">Apa itu Data?</h4>
+                <div class="note-content">
+                    <p><dfn>Data</dfn> adalah hasil pengukuran atau observasi yang dikumpulkan sebagai sumber informasi. Ada berbagai jenis data, dan berbagai cara untuk merepresentasikan data.</p>
+                    <p><dfn>Unit data</dfn> adalah satu entitas (seperti orang atau pekerjaan) dalam populasi yang sedang dipelajari, menunjukkan  data mana yang dikumpulkan. Unit data juga disebut sebagai unit record atau record.</p>
+                    <p><dfn>Item data</dfn> adalah karakteristik (atau atribut) unit data yang diukur atau dihitung, seperti tinggi, negara kelahiran, atau pendapatan. Item data juga disebut sebagai variabel karena karakteristiknya dapat bervariasi antar unit data, dan dapat bervariasi seiring waktu.</p>
+                    <p><dfn>Observasi (pengamatan)</dfn> adalah kejadian item data tertentu yang direkam tentang suatu unit data. Hal ini juga dapat disebut sebagai datum, yang merupakan bentuk data tunggal. Pengamatan bisa berupa numerik atau non-numerik (kategorik). Misalnya, 173 adalah observasi numerik dari item data 'height (cm)', sedangkan 'Australia' adalah observasi non-numerik (kategorik) dari item data 'country of birth'.</p>
+                    <p>Dataset adalah kumpulan lengkap dari semua data pengamatan.</p>
+                </div>
+            </section>
+            <section>
+                <h4 class="note-title">DBMS: Definisi dan Tujuannya</h4>
+                <div class="note-content">
+                    <p><dfn>Sistem manajemen basis data (DBMS)</dfn> adalah kumpulan data yang saling terkait dan sekumpulan program untuk mengakses data tersebut. Kumpulan data tersebut biasanya disebut sebagai database, berisi informasi yang relevan dengan suatu perusahaan. Tujuan utama dari DBMS adalah menyediakan cara untuk menyimpan dan mengambil informasi database dengan nyaman dan efisien.</p>
+                    <p>Tujuan dari penggunaan DBMS adalah untuk menggantikan manajemen data konvensional <strong>file-processing system</strong> yang memiliki beberapa kelemahan sebagai berikut:</p>
+                    <ul>
+                        <li>Data redundancy and inconsistency.</li>
+                        <li>Difficulty in accessing data.</li>
+                        <li>Data isolation.</li>
+                        <li>Integrity problems.</li>
+                        <li>Atomicity problems.</li>
+                        <li>Concurrent-access anomalies.</li>
+                        <li>Security problems.</li>
+                    </ul>
+                </div>
             </section>
         </article>
         <article id="programming" class="card">
             <img src="assets/images/undraw_programming_2svr.png" class="illustration-image">
             <h2>Notes about Programming</h2>
             <section>
-                <h4>Notes about Programming 1</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4 class="note-title">Berbagai Paradigma Pemrograman</h4>
+                <div class="note-content">
+                    <p>Istilah paradigma pemrograman mengacu pada gaya pemrograman atau bagaimana cara kita memprogram, bukan mengacu pada bahasa tertentu. Secara garis besar ada paradigma pemrograman <strong>Imperatif</strong> dan <strong>Deklaratif</strong>.</p>
+                    <p>Kata imperatif berasal dari Bahasa Latin 'impero' yang berarti 'saya perintahkan'. Paradigma ini terdiri dari beberapa statement, dan setelah dieksekusi semuanya, hasilnya disimpan. Paradigma ini adalah tentang menulis daftar petunjuk untuk memberi tahu komputer apa yang harus dilakukan langkah demi langkah. Paradigma yang termasuk pada jenis ini adalah <strong>paradigma pemrograman prosedural, pemrograman berorientasi objek, dan pendekatan pemrosesan paralel</strong>.</p>
+                    <p>Pemrograman deklaratif adalah gaya pemrograman yang mengekspresikan logika komputasi tanpa membicarakan aliran kontrolnya. Pemrograman deklaratif adalah paradigma pemrograman di mana programmer mendefinisikan apa yang perlu diselesaikan oleh program tanpa menentukan bagaimana hal-hal tersebut perlu diimplementasikan. Dengan kata lain, pendekatan tersebut berfokus pada apa yang perlu dicapai daripada menginstruksikan bagaimana mencapainya. Paradigma yang termasuk pada jenis ini adalah <strong>paradigma pemrograman logika, pemrograman fungsional, dan pendekatan pemrosesan database</strong>.</p>
+                </div>
             </section>
         </article>
         <article id="networks" class="card">
             <img src="assets/images/undraw_connected_world_wuay.png" class="illustration-image">
             <h2>Notes about Computer Networks</h2>
             <section>
-                <h4>Notes about Computer Networks 1</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4 class="note-title">Dasar Pembangunan Jaringan Komputer</h4>
+                <div class="note-content">
+                    <p><dfn>Jaringan</dfn> adalah sekumpulan sesuatu yang saling terhubung satu sama lain (berinterkoneksi). Sedangkan, <dfn>jaringan komputer</dfn> adalah jaringan dengan lebih dari satu komputer yang saling terhubung menggunakan medium/link tertentu. Jaringan komputer dapat berupa jaringan dengan lingkup kecil, yaitu <strong>Local Area Network (LAN)</strong>, atau jaringan dengan lingkup yang jauh lebih luas, seperti <strong>Internet</strong>. Terdapat beberapa langkah yang harus dilakukan untuk membangun sebuah jaringan: </p>
+                    <ol>
+                        <li><strong>Mengidentifikasi Kebutuhan Jaringan</strong><br>
+                            Jaringan yang bagaimana yang kita butuhkan? Misalnya, sebuah jaringan komputer harus menyediakan konektivitas yang berskala (scalable) dan efektif dari segi biaya (cost-effective). Hal ini dapat dipenuhi dengan membangun nested interconnection dari node dan link dan melakukan sharing menggunakan statistical multiplexing. Ini menghasilkan sebuah packet-swicthed network yang kemudian di atasnya dapat didefinisikan berbagai layanan komunikasi.
+                        </li>
+                        <li><strong>Mendefinisikan Arsitektur Jaringan</strong><br>
+                            Langkah selanjutnya adalah mendefinisikan layered architecture yang akan menjadi blueprint dari desain jaringan kita. Objek yang menjadi pusat dari arsitektur ini adalah protokol jaringan. Protokol menyediakan layanan komunikasi untuk protokol pada layer yang lebih tinggi dan juga mendefinisikan bentuk dan arti dari pertukaran pesan dengan peer yang berjalan pada mesin lain. Dua artistektur yang paling umum digunakan, yaitu <strong>Arsitektur OSI dengan 7 Layer</strong> dan <strong>Arsitektur Internet</strong>.
+                        </li>
+                        <li><strong>Mengimplementasikan Protokol dan Program Aplikasi Jaringan</strong><br>
+                            Baik protokol maupun program aplikasi, keduanya membutuhkan sebuah antarmuka (interface), yang mana dengan interface tersebut protokol dan aplikasi dapat menjalankan layanan dari protokol lainnya di dalam subsistem jairngan. <strong>Socket interface</strong> adalah antarmuka yang paling umum digunakan.
+                        </li>
+                        <li><strong>Mengontrol Kualitas Jaringan</strong><br>
+                            Langkah terakhir yang dapat dilakukan adalah mengontrol dan meningkatkan kualitas jaringan dengan menggunakan performance metrics, seperti latency dan throughput. Produk dari kedua metrik ini yang disebut delay x bandwidth product, berperan sangat penting pada perancangan protokol jaringan.
+                        </li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h4 class="note-title">7 Layer pada Arsitektur OSI</h4>
+                <div class="note-content">
+                    <p><dfn>Layer</dfn> adalah mekanisme abstraksi untuk menyederhanakan implementasi dan mengatur kompleksitas. Layer di bawah menyediakan layanan untuk layer di atas, namun detail kompleksitasnya disembunyikan. Layer memiliki dua fitur yang sangat bermanfaat. Pertama, layer mendekomposisi masalah pembangunan jaringan menjadi komponen-komponen kecil yang lebih mudah untuk diatur. Kedua, layer menyediakan desain jaringan yang lebih modular. ISO (International Organization for Standardization) adalah salah satu organisasi pertama yang secara formal mendefinisikan sebuah cara yang umum untuk menghubungkan sekumpulan komputer. Arsitektur yang diperkenalkan oleh ISO adalah OSI (Open Systems Interconnection) yang terdiri dari 7 layer. Mulai dari bawah hingga layer teratas, layer-layer dalam arsitektur OSI adalah sebagai berikut:</p>
+                    <ul>
+                        <li><strong>Physical Layer</strong> menangani cara mentransmisikan bit-bit data</li>
+                        <li><strong>Data Link Layer</strong> menangani cara mentransmisikan frame data</li>
+                        <li><strong>Network Layer</strong> menangani cara merutekan (routing) paket data</li>
+                        <li><strong>Transport Layer</strong> menangani cara mengirimkan paket data end-to-end</li>
+                        <li><strong>Session Layer</strong> menangani cara menyatukan aliran transportasi</li>
+                        <li><strong>Presentation Layer</strong> menangani persoalan terkait format data yang dipertukarkan antar peer</li>
+                        <li><strong>Application Layer</strong> menangani hal-hal lainnya</li>
+                    </ul>
+                </div>
             </section>
         </article>
         <article id="ai" class="card">
             <img src="assets/images/undraw_Artificial_intelligence_oyxx.png" class="illustration-image">
             <h2>Notes about Artificial Intelligences</h2>
             <section>
-                <h4>Artificial Intelligences 1</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <h4 class="note-title">Apa itu Artificial Intelligences (AI) ?</h4>
+                <div class="note-content">
+                    <p>AI adalah salah satu bidang terbaru dalam sains dan teknik. Perkembangannya dimulai segera setelah Perang Dunia II, dan nama AI itu sendiri diciptakan pada tahun 1956. Hingga saat ini, masih ada celah yang luas untuk menemukan dan menciptakan hal-hal baru di dalam bidang AI ini. AI mencakup berbagai macam subbidang, mulai dari yang umum (learning dan perception) hingga yang spesifik, seperti bermain catur, membuktikan teorema matematika, menulis puisi, mengendarai mobil di jalan yang ramai, dan mendiagnosis penyakit. AI relevan dengan tugas intelektual apa pun; ini benar-benar bidang yang universal.</p>
+                    <p>Artifical Intelligence memiliki beberapa definisi yang dapat dikelompokkan menjadi 4 pendekatan AI, yaitu thinking humanly, thingking rationally, acting humanly, dan acting rationally. Kata <em>thinking</em>' menandakan bahwa pendekatan AI tersebut berkaitan dengan proses berpikir dan penalaran, sementara <em>acting</em> berkaitan dengan aksi dan perilaku. Kata <em>humanly</em>' menandakan bahwa pendekatan AI tersebut mengukur keberhasilan berdasarkan ketepatannya sesuai kinerja manusia , sementara pendekatan AI <em>rationally</em> mengukur keberhasilan berdasarkan ukuran kinerja yang ideal yang disebut rasionalitas. Berikut adalah beberapa definisi AI tersebut:</p>
+                    <ul>
+                        <li><strong>Thingking Humanly</strong>
+                            <ul>
+                                <li><q>Upaya baru yang menarik untuk membuat komputer berpikir ... mesin dengan pikiran, dalam arti secara penuh dan literal.</q> (Haugeland, 1985)</li>
+                                <li><q>[Otomatisasi] aktivitas yang kita kaitkan dengan pemikiran manusia, aktivitas seperti pengambilan keputusan, pemecahan masalah, pembelajaran ...</q> (Bellman, 1978)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Thingking Rationally</strong>
+                            <ul>
+                                <li><q>Studi tentang kemampuan mental melalui penggunaan model komputasi.</q> (Charniak dan McDermott, 1985)</li>
+                                <li><q>Studi tentang komputasi yang memungkinkan untuk melihat, bernalar, dan bertindak.</q> (Winston, 1992)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Acting Humanly</strong>
+                            <ul>
+                                <li><q>Seni membuat mesin yang menjalankan fungsi yang membutuhkan kecerdasan saat dilakukan oleh manusia.</q> (Kurzweil, 1990)</li>
+                                <li><q>Studi tentang bagaimana membuat komputer melakukan hal-hal yang pada saat itu (jika dikerjakan oleh) manusia (hasilnya) lebih baik.</q> (Rich dan Knight, 1991)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Acting Rationally</strong>
+                            <ul>
+                                <li><q>Kecerdasan Komputasi adalah studi tentang perancangan agen cerdas.</q> (Poole et al., 1998)</li>
+                                <li><q>AI. . . berkaitan dengan perilaku cerdas dalam artefak.</q> (Nilsson, 1998)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>Secara historis, keempat pendekatan terhadap AI telah diikuti, masing-masing oleh orang yang berbeda dengan metode yang berbeda. Pendekatan yang berpusat pada manusia harus menjadi bagian dari ilmu empiris, yang melibatkan pengamatan dan hipotesis tentang perilaku manusia. Pendekatan rasional melibatkan kombinasi antara matematika dan teknik. </p>
+                </div>
             </section>
         </article>
         <article id="references" class="card">
             <h2>References of The Notes</h2>
             <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
+                <li>
+                    <p>Peterson, Larry L. dan Bruce S.Davie. 2012. Computer Networks: A System Approach 5th ed. USA: Morgan Kauffman Publisher (Elsevier)<p>
+                </li>
+                <li>
+                    <p>Silberschatz, Abraham. 2011. Database system concepts 6th ed. New York: McGraw-Hill<p>
+                    </li>
+                <li>
+                    <p>Russel, Stuart J. dan Peter Norvig. 2009. Artificial Intelligence: A Modern Approach 3rd ed. New Jersey: Prentice-Hall (Pearson)<p>
+                    </li>
+                <li>
+                    <p><a href= "https://www.abs.gov.au/websitedbs/a3121120.nsf/home/statistical+language+-+what+are+data">Australian Bureau of Statistics. (2013). What are Data?</a></p>
+                </li>
+                <li>
+                    <p><a href= "https://www.freecodecamp.org/news/what-exactly-is-a-programming-paradigm/">Thanoshan MV. (2019). What exactly is a programming paradigm?</a></p>
+                </li>
             </ul>
         </article>
     </div>
