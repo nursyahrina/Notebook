@@ -29,3 +29,9 @@ for (let note of notes) {
 		toggleDisplay(target);
 	});
 }
+
+const latestNotes = document.querySelectorAll(".latest");
+
+for (let latestNote of latestNotes) {
+	toggleDisplay(latestNote);
+}
